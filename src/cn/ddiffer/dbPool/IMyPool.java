@@ -9,7 +9,7 @@ public interface IMyPool {
      * 获取数据库连接
      * @return
      */
-    PooledConnection getConnection();
+    PoolConnection getConnection();
 
     /**
      * 创建数据库连接
